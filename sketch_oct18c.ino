@@ -41,7 +41,7 @@ void loop() {
     // พิมพ์ค่าอุณหภูมิ
     lcd.setCursor(0, 0);
     lcd.print("Temp: ");
-    // lcd.print(temperature);
+    lcd.print(temperature);
     lcd.print("C");
 
     // พิมพ์ค่าความชื้น
